@@ -8,7 +8,7 @@ def main():
     # define a while loop
     while x < 5:
         print x
-        x = x +1
+        x += 1
 
     # define a for loop
     for x in range(5,10):
@@ -21,10 +21,10 @@ def main():
 
     # use the break and continue statements
     for x in range(5,10):
-        #if x == 7:
+        # if x == 7:
         #    break
         if x % 2 == 0:
-             continue
+            continue
         print x
 
     for i, d in enumerate(days):
